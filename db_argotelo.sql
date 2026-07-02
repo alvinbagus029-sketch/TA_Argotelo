@@ -1,4 +1,4 @@
--- Active: 1782960658797@@gateway01.ap-southeast-1.prod.aws.tidbcloud.com@4000
+-- Active: 1782965583386@@gateway01.ap-southeast-1.prod.aws.tidbcloud.com@4000
 use db_project_argotelo;
 
 CREATE TABLE roles (
@@ -211,3 +211,12 @@ CREATE TABLE shifts (
 );
 
 show tables;
+
+select * from roles;
+
+
+INSERT INTO roles (role_name)
+VALUES0
+('Owner'),
+('Finance'),
+('Cashier');
